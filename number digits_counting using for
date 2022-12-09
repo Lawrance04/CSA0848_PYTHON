@@ -1,0 +1,6 @@
+num=int(input("ENTER THE NUMBER :"))
+count=0
+for i in str(num):
+    num=num//10
+    count+=1
+print(count)
