@@ -1,0 +1,15 @@
+amount=int(input("ENTER THE INCOME AMOUNT :"))
+if amount<=150000:
+    print("NO TAX")
+elif amount<=150001 and 300000>=amount:
+    print(" 10% TAX CHARGE ")
+    tax_amount=(10/100)*amount
+    print("TOTAL TAX AMOUNT =",tax_amount)
+elif amount<=300001 and 500000>=amount:
+    print(" 20% TAX CHARGE ")
+    tax_amount=(20/100)*amount
+    print("TOTAL TAX AMOUNT =",tax_amount)
+elif 500000<amount:
+    print(" 30% TAX CHARGE ")
+    tax_amount=(30/100)*amount
+    print("TOTAL TAX AMOUNT =",tax_amount)
