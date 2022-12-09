@@ -1,0 +1,22 @@
+a=int(input("ENTER 'A' VALUE :"))
+b=int(input("ENTER 'B' VALUE :"))
+print("WHAT METHOD NEED TO PERFORM ")
+print("1- ADDITION ")
+print("2- SUBTRACTION ")
+print("3- MULTIPLICATION ")
+print("4- DIVISION ")
+METHOD=int(input("ENTER THE METHOD NUMBER :"))
+if METHOD==1:
+    addition=a+b
+    print("ADDITION : ",addition)
+elif METHOD==2:
+    subtraction=a-b
+    print("SUBTRACTION :",subtraction)
+elif METHOD==3:
+    multiplication=a*b
+    print("MULTIPLICATION :",multiplication)
+elif METHOD==4:
+    division=a/b
+    print("DIVISION :",division)
+else:
+    print("default method selection ")
