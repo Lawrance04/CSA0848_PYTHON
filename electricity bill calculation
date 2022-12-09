@@ -1,0 +1,19 @@
+previous_reading=int(input("ENTER THE PREVIOUS UNIT READING :"))
+current_reading=int(input("ENTER THE CURRENT UNIT READING :"))
+units=current_reading-previous_reading
+if 0<=units and units<=150 :
+    print("per unit cost is 2Rs ")
+    bill_amount=units*2
+    print("TOTAL ELECTRICITY BILL =", bill_amount)
+elif 151<=units and units<=300:
+    print("per unit cost is 3Rs ")
+    bill_amount=100+(units-150)*3
+    print("TOTAL ELECTRICITY BILL =", bill_amount)
+elif 301<=units and units<=450:
+    print("per unit cost is 4Rs ")
+    bill_amount=250+(units-301)*4
+    print("TOTAL ELECTRICITY BILL =", bill_amount)
+elif units>=451:
+    print("per unit cost is 5Rs ")
+    bill_amount=300+(units-450)*5
+    print("TOTAL ELECTRICITY BILL =", bill_amount)
