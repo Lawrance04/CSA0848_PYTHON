@@ -1,0 +1,8 @@
+N=int(input("ENTER THE NUMBER OF INTEGERS :"))
+SUM=0
+for i in range(0,N):
+    num=int(input("ENTER THE NUMBER :"))
+    SUM=SUM+num
+print(SUM)
+Avg=SUM/N
+print("AVERAGE =", Avg)
