@@ -1,0 +1,30 @@
+def area_of_triangle(height,base):
+    area_of_triangle=(height*base)/2
+    print("AREA OF THE TRIANGLE =",area_of_triangle)
+    return()
+def area_of_circle(r):
+    area_of_the_circle=3.14*(radius**2)
+    print("AREA OF THE CIRCLE =",area_of_the_circle)
+    return()
+def area_of_square(side):
+    area_of_the_square=(sides**2)
+    print("AREA OF THE SQUARE =",area_of_the_square)
+    return()
+print("1-area of triangle")
+print("2-area of circle")
+print("3-area of square")
+choise=int(input("ENTER THE CHOOISE :"))
+if choise==1:
+    height=int(input("ENTER THE HEIGHT :"))
+    base=int(input("ENTER THE BASE :"))
+    triangle=area_of_triangle(height,base)
+elif choise==2:
+    radius=int(input("ENTER THE RADIUS OF THE CIRCLE :"))
+    circle=area_of_circle(r)
+elif choise==3:
+    sides=int(input("ENTER THE SIDE VALUE :"))
+    square=area_of_square(sides)
+else:
+    print("DEFAULT CHOISE SELECTION")
+    
+
