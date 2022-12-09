@@ -1,0 +1,4 @@
+import random
+m=int(input("enter the starting number :"))
+n=int(input("enter the  ending  number :"))
+print(random.randint(m,n))
