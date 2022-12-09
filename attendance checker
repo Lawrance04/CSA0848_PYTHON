@@ -1,0 +1,10 @@
+attendance=int(input("ENTER THE ATTENDANCE PERCENTAGE ="))
+if 75>attendance:
+    print("less attendance percentage ")
+    medical_issue=input("DID YOU HAVE ANY MEDICAL ISSUES...? SAY YES OR NO :" )
+    if medical_issue=='YES':
+        print("HAVEING MEDICAL ISSUE ")
+    else :
+        print("NOT HAVING MEDICAL ISSUE ")
+else:
+    print("HAVING ATTENDACE PERCENTAGE ")
