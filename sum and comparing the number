@@ -1,0 +1,10 @@
+A=int(input("ENTER THE VALUE ="))
+B=int(input("ENTER THE VALUE ="))
+SUM=A+B
+if SUM<5:
+    print("SUM is less then 5")
+elif SUM>5:
+    print("SUM is greater then 5")
+elif SUM==5:
+    print("SUM is equal to 5 ")
+print("SUM =",SUM)
