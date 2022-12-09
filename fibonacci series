@@ -1,0 +1,10 @@
+N=int(input("ENTER THE NUMBER FOR FIBONACCI SERIES :"))
+a1=int(input("ENTER THE a1 VALUE :"))
+a2=int(input("ENTER THE a2 VALUE :"))
+print(a1)
+print(a2)
+for i in range(0,N):
+    a3=a1+a2
+    print(a3)
+    a1=a2
+    a2=a3
