@@ -1,0 +1,5 @@
+N=int(input("ENTER THE VALUE FOR FACTORIAL :"))
+fact=1
+for i in range(1,N+1):
+    fact=fact*i
+print(" THE FACTORIAL OF",N,"=",fact)
