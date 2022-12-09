@@ -1,0 +1,5 @@
+p=int(input("ENTER THE PRINCIPLE BALANCE AMOUNT : "))
+t=int(input("ENTER THE TIME IN YEARS : "))
+r=int(input("ENTER THE RATE OF INTREST : "))
+simple_intrest=(p*r*t)/100
+print("SIMPLE INTREST AMOUNT =",simple_intrest)
