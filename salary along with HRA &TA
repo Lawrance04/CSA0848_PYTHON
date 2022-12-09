@@ -1,0 +1,8 @@
+basicPay=int(input("enter the basic pay = "))
+HRA=(10/100)*basicPay
+TA=(5/100)*basicPay
+salary=basicPay+HRA+TA
+print("BASIC PAY = ",basicPay)
+print("House Rent Allowance =",HRA)
+print("Travelling Allowance =",TA)
+print("Total salary =",salary)
