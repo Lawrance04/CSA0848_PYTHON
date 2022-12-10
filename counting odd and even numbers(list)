@@ -1,0 +1,10 @@
+l=[2,4,11,554,32,8,65,34]
+oddlist=[]
+evenlist=[]
+for i in range(len(l)):
+    if l[i]%2==0:
+        evenlist.append(l[i])
+    else:
+        oddlist.append(l[i])
+print("ODD NUMBERS ",oddlist)
+print("EVEN NUMBERS ",evenlist)
