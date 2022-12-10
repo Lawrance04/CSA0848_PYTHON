@@ -1,0 +1,5 @@
+N=int(input("ENTER THE Nth NUMBER :"))
+num=[2,3,43,64,23,12,88,5,43,24,69]
+Greater=sorted(num)
+print(Greater)
+print("THE ",N,"rd/th GREATER NO.IS",Greater[-N])
