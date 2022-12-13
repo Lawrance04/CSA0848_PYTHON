@@ -1,0 +1,7 @@
+a=str(input("enter the first word:"))
+b=str(input("enter the second word:"))
+c=sorted(a)
+d=sorted(b)
+if(c!=d):
+  print("it is not the anagromic sequence")
+else:print("it is anagromic sequence")
